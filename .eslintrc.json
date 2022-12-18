@@ -1,0 +1,21 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "rules" : {
+    "no-unused-vars": "off"
+  }
+}
+
+
+
+// yarn add eslint -D
+// yarn add @rocketseat/eslint-config -D
+
+// Apertem o CTRL + SHIFT + P e pesquisem o caminho "Preferences: Open User Settings (JSON)". 
+// Este arquivo pode ser editado. Acrescentem esta linha ao objeto:
+
+// "editor.codeActionsOnSave": {"source.fixAll.eslint": true}
+
+// yarn eslint src --ext .ts,.tsx
+// yarn eslint src --ext .ts,.tsx --fix
+
+// "lint": "eslint src --ext .ts,.tsx"
